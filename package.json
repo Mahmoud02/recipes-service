@@ -1,0 +1,22 @@
+{
+  "name": "recipes-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.6.9",
+    "fastify": "^3.27.2",
+    "fastify-gql": "^5.8.2"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.5",
+    "node-fetch": "^3.2.0"
+  }
+}
